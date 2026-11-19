@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+data/recipes.duckdb*
+data/vectors/
+data/index/
+results/*.tmp
+*.egg-info/
+data/raw/*.partial.jsonl

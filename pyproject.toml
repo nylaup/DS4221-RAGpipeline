@@ -1,0 +1,23 @@
+[project]
+name = "recipe-rag"
+version = "0.1.0"
+description = "RAG over the Wikibooks Cookbook (DS 4221 final project)"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.1",
+    "numpy>=1.26",
+    "sentence-transformers>=3.0",
+    "requests>=2.31",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.setuptools]
+packages = ["recipe_rag"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
